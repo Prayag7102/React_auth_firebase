@@ -1,0 +1,15 @@
+.page_title::after{
+    content: "";
+    position: absolute;
+    top: 5.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 2px;
+    background-color: indigo;
+    transition: 0.8s all ease;
+}
+
+.page_title:hover:after{
+    width: 200px;
+}
